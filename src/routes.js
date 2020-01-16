@@ -9,7 +9,7 @@ import Play from "./views/Play";
 export default (
   <Router>
     <Switch>
-      <Route path="/memorygame" component={Home} />
+      <Route exact path="/memorygame" component={Home} />
       <Route path="/memorygame/play" component={Play} />
       <Route path="*" component={PageNotFound} />
     </Switch>
