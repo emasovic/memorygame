@@ -11,7 +11,7 @@ export default class Menu extends Component {
       <div className={CLASS}>
         <div className={CLASS + "-wrapper"}>
           <div className={CLASS + "-wrapper-item"}>
-            <Link to="/play">Play</Link>
+            <Link to="/memorygame/play">Play</Link>
           </div>
         </div>
       </div>

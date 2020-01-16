@@ -11,9 +11,8 @@ export default class Header extends Component {
     return (
       <div className={CLASS}>
         <h1>
-          <Link to="/">
+          <Link to="/memorygame">
             <LogoSVG />
-            <span>Davidov Divan Dan</span>
           </Link>
         </h1>
       </div>

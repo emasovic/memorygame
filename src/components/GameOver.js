@@ -16,7 +16,7 @@ export default class GameOver extends Component {
           <span>Game Over</span>
         </div>
         <p>
-          <Link to="/">Try again</Link>
+          <Link to="/memorygame">Try again</Link>
         </p>
       </div>
     );
